@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "netmax-rag"
+version = "0.1.0"
+description = ""
+authors = ["AT200210 <amaythakur09@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.44.0"
+langchain = "^0.3.21"
+langchain-community = "^0.3.20"
+faiss-cpu = "^1.10.0"
+sentence-transformers = "^4.0.1"
+python-dotenv = "^1.1.0"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.13.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
